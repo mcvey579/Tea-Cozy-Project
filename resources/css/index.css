@@ -1,0 +1,163 @@
+* {
+    background-color: black;
+    font-family: helvetica;
+    color: seashell;
+    opacity: 0.9;
+}
+
+.navigation {
+    position: relative; 
+    top: 0; 
+    height: 69px;
+    width: 100%; 
+    z-index: 1;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navigation .nav-link {
+    text-decoration: underline;
+    padding: 15px;
+    margin-right: 10px;
+}
+
+.navigation .selected {
+    margin-left: auto;
+  }
+
+.navigation .logo {
+    height: 50px;
+    margin-left: 10px;
+    padding-top: 1px;
+} 
+
+.nav-link {
+    font-size: 22px;
+}
+
+.bannersection {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    height: 700px;
+    width: 100%;
+    top: ;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.banner {
+    background-image: url("images/img-mission-background.jpg"); 
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+  }
+
+.banner-text {
+    font-family: Helvetica, sans-serif;
+    width: 1200px;
+    text-align: center;
+    vertical-align: middle;
+    word-spacing: 1px;
+    margin: 0px;
+    padding: 0px;    
+    line-height: .6;
+ }
+
+.TeaMonth {
+    text-align: center;
+    margin: 50px 0 0 0;
+    padding: 0px;
+    height: 625px;
+    width: 100%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.9;
+}
+
+.col {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: end;
+}
+
+.size {
+    width: 300px;
+    height: 200px;
+    margin: 5px 10px 0px 10px;
+}
+
+.under {
+    text-align: center;
+    line-height: 0.1;
+}
+
+.locations {
+    background-image: url("images/img-locations-background.jpg");
+    width: 1150px;
+    height: 500px;
+    margin: auto;
+    padding-left: 50px;
+    position: center;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+}
+
+.loc-boxes {
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    line-height: 18px;
+    width: 1080px;
+    justify-content: center;
+    text-align: bottom;
+    padding-top: 40px;
+    opacity: 0.9;
+}
+
+.box {
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    line-height: 3.1em;
+    opacity: 0.9;  
+}
+
+.box, #margin {
+    margin: 0px 0px 0px 40px;
+}
+
+footer {
+    height: 200px;
+    text-align: center;
+    opacity: 0.9;
+}
+
+footer h2 {
+    line-height: 12px;
+    text-align: center;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+
+.ftr {
+    line-height: 50px;
+}
